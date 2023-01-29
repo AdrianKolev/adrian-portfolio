@@ -13,9 +13,11 @@ const Header = () => {
     <>
       <header className="header">
         <div className="container flex">
-          <div className="logo">
-            <img src="assets/logo.png" alt="" />
-          </div>
+          <Link to="/">
+            <div className="logo">
+              <img src="assets/logo.png" alt="" />
+            </div>
+          </Link>
           <div className="nav">
             <ul
               className={sidebar ? "nav-links-sidebar" : "nav-links"}
@@ -25,11 +27,12 @@ const Header = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
-              </li>
-              <li>
                 <Link to="/portfolio">Portfolio</Link>
               </li>
+              <li>
+                <Link to="/blog">Blog</Link>
+              </li>
+
               <li>
                 <Link to="/contact">Contact</Link>
               </li>

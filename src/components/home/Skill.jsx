@@ -3,9 +3,9 @@ import React from "react";
 const Skill = () => {
   const Progress = ({ done, title }) => {
     return (
-      <div className="progress">
+      <div className="progresss">
         <div
-          className="progress-done"
+          className="progresss-done"
           style={{
             opacity: 1,
             width: `${done}%`,

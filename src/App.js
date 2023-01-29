@@ -7,6 +7,7 @@ import HomePages from "./components/pages/HomePages";
 import Blog from "./components/home/blog/Blog";
 import Work from "./components/home/work/Work";
 import Post from "./components/home/blog/Post";
+import Contact from "./components/home/contact/Contact";
 
 const App = () => {
   return (
@@ -15,9 +16,10 @@ const App = () => {
         <Header />
         <Switch>
           <Route path="/" exact component={HomePages} />
-          <Route path="/blog" exact component={Blog} />
           <Route path="/portfolio" exact component={Work} />
+          <Route path="/blog" exact component={Blog} />
           <Route path="/blog/:id" exact component={Post} />
+          <Route path="/contact" exact component={Contact} />
         </Switch>
         <Footer />
       </Router>
