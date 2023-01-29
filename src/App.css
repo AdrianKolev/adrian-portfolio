@@ -754,4 +754,40 @@ footer .icon i {
   align-items: center;
   justify-content: center;
 }
+
 /*------------ pages ----------*/
+.loadMore {
+  padding: 15px;
+  background-color: #38d16a;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+/*** Blog inside */
+/*------------ Services ----------*/
+.Post {
+  text-align: center;
+  background-color: #f8f9fe;
+  padding: 50px 0;
+}
+.Post .box {
+  text-align: left;
+}
+.Post img {
+  width: 50%;
+  height: 500%;
+  object-fit: contain;
+}
+.Post .text {
+  background: #fff;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 6%);
+  padding: 30px;
+  margin: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+.Post h1 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+}

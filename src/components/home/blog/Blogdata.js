@@ -20,6 +20,13 @@ const Blogdata = [
     cover: "./assets/blog/blog3.jpg",
     category: "IT",
   },
-]
+  {
+    id: 4,
+    date: "28 FEB, 2019",
+    title: "3 WooCommerce Plugins to Boost Sales",
+    cover: "./assets/blog/blog3.jpg",
+    category: "IT",
+  },
+];
 
-export default Blogdata
+export default Blogdata;
