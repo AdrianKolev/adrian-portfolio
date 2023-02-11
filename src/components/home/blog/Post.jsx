@@ -18,7 +18,10 @@ const Post = (props) => {
         <article>
           <h1>{data.title}</h1>
           <img src={data.cover} alt="" />
-          <p className="text">{data.desc}</p>
+          <div
+            className="text"
+            dangerouslySetInnerHTML={{ __html: data.desc }}
+          />
         </article>
       </section>
     </>
