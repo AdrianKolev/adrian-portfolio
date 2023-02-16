@@ -70,7 +70,7 @@ const Footer = () => {
         <div className="legal container">
           <p>Copyright @2019. All rights reserved.</p>
           <label>
-            Design & Developed by <span>GorkCoder</span>
+            Design & Developed by <span>Adrian Kolev</span>
           </label>
         </div>
       </footer>

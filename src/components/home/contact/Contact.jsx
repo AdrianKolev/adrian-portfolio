@@ -155,7 +155,7 @@ const Contact = () => {
                     )}
                   </div>
                 </div>
-                <button className="submit-btn m-2 p-3" type="submit">
+                <button className="loadMore m-2 p-3" type="submit">
                   Submit
                 </button>
               </form>

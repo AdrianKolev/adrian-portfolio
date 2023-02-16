@@ -15,7 +15,7 @@ const Header = () => {
         <div className="container flex">
           <Link to="/">
             <div className="logo">
-              <img src="assets/logo.png" alt="" />
+              <img className="logo-img" src="assets/logo.png" alt="" />
             </div>
           </Link>
           <div className="nav">
