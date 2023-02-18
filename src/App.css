@@ -159,6 +159,15 @@ header.active {
 .facebook:hover {
   background: #4267b2;
 }
+
+.linkedin {
+  color: #4267b2;
+  border: 1px solid #4267b2;
+}
+.linkedin:hover {
+  background: #4267b2;
+}
+
 .instagram {
   color: #dc2743;
   border: 1px solid #dc2743;
