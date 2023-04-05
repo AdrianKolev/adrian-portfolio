@@ -8,8 +8,10 @@ const Footer = () => {
           <div className="box">
             <img src="./assets/logo1.png" alt="" />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              If you're looking for a full stack developer who has worked
+              extensively with both front-end and back-end development and has a
+              strong interest in creating sleek, high-quality, and user-friendly
+              web applications, please feel free to get in touch with me.
             </p>
             <div className="SocailIcon">
               <i className="fab fa-facebook-f facebook"></i>
@@ -68,7 +70,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="legal container">
-          <p>Copyright @2019. All rights reserved.</p>
+          <p>Copyright @2023. All rights reserved.</p>
           <label>
             Design & Developed by <span>Adrian Kolev</span>
           </label>

@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Wrapper = () => {
   const data = [
     {
       title: "LOOKING FOR EXCLUSIVE SERVICES?",
       heading: "Get The Best For Your Business",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Take your business to the next level with top-notch web development services. Partner with a full stack developer who is passionate about creating clean, user-friendly web applications. Contact me today to learn more.",
     },
   ];
   return (
@@ -18,7 +19,9 @@ const Wrapper = () => {
                 <h3>{value.title}</h3>
                 <h2>{value.heading}</h2>
                 <p>{value.desc}</p>
-                <button className="primary-btn">Contact Us</button>
+                <Link to="/contact">
+                  <button className="primary-btn">Contact Me</button>
+                </Link>
               </div>
             );
           })}

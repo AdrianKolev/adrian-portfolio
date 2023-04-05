@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Skill = () => {
   const Progress = ({ done, title }) => {
@@ -21,9 +22,9 @@ const Skill = () => {
   const data = [
     {
       title: "Every Day is a New Challenge",
-      para: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id autem veritatis nobis inventore consectetur omnis porro iusto excepturi, quo voluptate quos vel, quasi officia fugiat.",
+      para: "As a developer, every day is a new challenge, and that's part of what makes the job exciting and rewarding.",
       para1:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos illo qui quibusdam perspiciatis soluta cumque quia asperiores sapiente! Veniam odit veritatis mollitia eos similique impedit beatae iusto.",
+        "Whether it's working on a new project, troubleshooting an issue, or learning a new technology, there is always something new to tackle. While this can be intimidating at times, it also presents opportunities for growth and development. By embracing each new challenge with a positive attitude and a willingness to learn, developers can continually improve their skills and become more versatile and adaptable. Additionally, the fast-paced and ever-changing nature of the industry means that there is never a dull moment, and developers have the opportunity to make a real impact by creating innovative solutions and pushing the boundaries of what is possible.",
     },
   ];
   return (
@@ -49,7 +50,9 @@ const Skill = () => {
                     <h1>{val.title}</h1>
                     <p>{val.para}</p>
                     <p>{val.para1}</p>
-                    <button className="primary-btn">Hire Me</button>
+                    <Link to="/contact">
+                      <button className="primary-btn">Contact Me</button>
+                    </Link>
                   </>
                 );
               })}

@@ -5,12 +5,12 @@ const About = () => {
     {
       title: "Who I Am And What I Do",
       desc1:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde possimus quaerat quam dolorum ipsa laboriosam, repudia illum amet inventore facilis, eius libero.",
+        "My name is Adrian and I'm a full stack developer with a passion for creating clean, functional, and user-friendly web applications. ",
       desc2:
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "With experience in both front-end and back-end development, I specialize in using a variety of programming languages and frameworks to build responsive and dynamic websites.",
       desc3:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      cover: "./assets/about.jpg",
+        "I am committed to staying up-to-date with the latest trends and best practices in web development, and I am constantly seeking out new challenges and opportunities to expand my skills and knowledge.",
+      cover: "./assets/about2.jpg",
     },
   ];
   return (

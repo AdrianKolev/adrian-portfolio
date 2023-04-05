@@ -5,17 +5,17 @@ const Branding = () => {
     {
       id: "01",
       heading: "Define",
-      desc: "Lorem ipsum dolor sit amet, provid adipisicing elit. Aliquam dolorum nu illo similique! Impedit.",
+      desc: "In this phase, we will define the purpose and scope of your project",
     },
     {
       id: "02",
       heading: "Develop",
-      desc: "Lorem ipsum dolor sit amet, provid adipisicing elit. Aliquam dolorum nu illo similique! Impedit.",
+      desc: "In this phase, I will develop your project by building out the design and functionality based on the requirements and plan you defined in the previous phase.",
     },
     {
       id: "03",
       heading: "Deliver",
-      desc: "Lorem ipsum dolor sit amet, provid adipisicing elit. Aliquam dolorum nu illo similique! Impedit.",
+      desc: "In this final phase, I will deliver your completed project to the public by deploying it to a web hosting service and making it accessible to your target audience",
     },
   ];
   return (
